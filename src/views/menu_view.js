@@ -13,7 +13,7 @@ MenuView.prototype.bindEvents = function(){
   // listener for the menu clicked
   this.menu.addEventListener("click", (menuClickedEvent) =>{
     const planetName = menuClickedEvent.target.id;
-    console.log(planetName);
+    // console.log(planetName);
     PubSub.publish("MenuView:planet-selected", planetName)
     // publish the clicked planet out to a menu_view channel.
 

@@ -23,7 +23,7 @@ DetailsView.prototype.render = function (planet) {
 
   const planetHeader = document.createElement("h2");
   planetHeader.textContent = planet.name;
-  console.log("h2:", planet.name);
+  // console.log("h2:", planet.name);
 
   const dayLength = document.createElement("p");
   dayLength.textContent = `Day: ${ planet.day }`;

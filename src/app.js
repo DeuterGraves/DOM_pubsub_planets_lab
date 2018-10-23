@@ -6,7 +6,7 @@ const DetailsView = require('./views/details_view.js');
 document.addEventListener('DOMContentLoaded', () => {
   // creates a new data model - pulls in planets data
   const planetsDataModel = new SolarSystem(planetsData);
-  console.log(planetsDataModel.planets);
+  // console.log(planetsDataModel.planets);
   planetsDataModel.bindEvents();
 
 //  need to create a menu to be passed into the menu view ;)
